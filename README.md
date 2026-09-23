@@ -1,6 +1,6 @@
 # GleapMoyaPlugin
 
-The Gleap Moya plugin intercepts all requests and forwards them to the Gleap SDK.
+The Gleap Moya plugin captures network request logs for the Gleap iOS SDK. Attach technical context to customer feedback and in-app bug reports from your Swift app.
 
 
 ## Installation
@@ -33,6 +33,6 @@ let provider = MoyaProvider<SampleType>(plugins: [GleapMoyaPlugin()])
 
 Find more information on Gleap here:
 
-[In-App Bug Reporting & Customer Feedback](https://www.gleap.io)
+[In-App Bug Reporting & Customer Feedback](https://www.gleap.ai)
 
-[Gleap Documentation](https://gleap.io/docs/ios/)
+[Gleap Documentation](https://docs.gleap.ai/documentation/ios/README)
